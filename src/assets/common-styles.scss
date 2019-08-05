@@ -1,0 +1,13 @@
+.d-block {
+    display: block !important;
+}
+
+.no-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.floating-container {
+    width: 100%;
+    height: calc(100vh - 64px);
+}

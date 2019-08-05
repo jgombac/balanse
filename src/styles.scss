@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~normalize.css';
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~material-icons/iconfont/material-icons.css';
+
+@import './assets/colors.scss';
+
+@import './assets/themes/material-themes.scss';
+@import './assets/common-styles.scss';
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+  }

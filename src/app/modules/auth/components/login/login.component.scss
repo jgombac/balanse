@@ -1,0 +1,15 @@
+.mat-card {
+    width: 440px;
+    padding: 0;
+
+    .mat-card-content {
+        padding: 16px;
+        
+        p {
+            margin: 8px 0;
+            .mat-form-field {
+                margin: inherit;
+            }
+        }
+    }
+}

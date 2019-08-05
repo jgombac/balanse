@@ -1,0 +1,20 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span><strong>Balansé</strong></span>
+
+    <span fxFlex></span>
+
+    <a *ngIf="isLogin" routerLink="/register" fxLayoutAlign=" center" class="no-link">
+      Register
+      <mat-icon>chevron_right</mat-icon>
+    </a>
+
+    <a *ngIf="isRegister" routerLink="/login" fxLayoutAlign=" center" class="no-link">
+      Login
+      <mat-icon>chevron_right</mat-icon>
+    </a>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
